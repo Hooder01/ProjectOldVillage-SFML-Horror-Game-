@@ -1,0 +1,13 @@
+Project Old Town
+
+Is a planned retro horror game with an NES style 
+
+You play as a male protag going through the "old town" and it's undead secrets 
+
+I want to build this ethier in SDL or Open GL after the feb build of Sonic between worlds in complete 
+
+This is simply a hobby project people in the future can play (most likey for free) 
+
+Project fils and Assets will both remain in this folder but I need to back up at somepoint.
+
+Github will also be used
