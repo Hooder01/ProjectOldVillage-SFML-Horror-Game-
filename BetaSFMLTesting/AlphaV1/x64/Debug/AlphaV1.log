@@ -1,3 +1,3 @@
 ﻿  AlphaV1.cpp
-C:\Users\Hooder\Desktop\ProjectOldTown\ProjectOldVillage-SFML-Horror-Game-\BetaSFMLTesting\AlphaV1\AlphaV1.cpp(39): warning C4715: 'BaseWindow': not all control paths return a value
+C:\Users\Hooder\Desktop\ProjectOldTown\ProjectOldVillage-SFML-Horror-Game-\BetaSFMLTesting\AlphaV1\AlphaV1.cpp(42): warning C4715: 'BaseWindow': not all control paths return a value
   AlphaV1.vcxproj -> C:\Users\Hooder\Desktop\ProjectOldTown\ProjectOldVillage-SFML-Horror-Game-\BetaSFMLTesting\AlphaV1\x64\Debug\AlphaV1.exe
