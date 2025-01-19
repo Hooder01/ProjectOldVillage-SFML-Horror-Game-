@@ -1,3 +1,3 @@
 ﻿  AlphaV1.cpp
-C:\Users\The Hooder\Desktop\ProjectOldVillage-SFML-Horror-Game-\BetaSFMLTesting\AlphaV1\AlphaV1.cpp(12,145): warning C4390: ';': empty controlled statement found; is this the intent?
-  AlphaV1.vcxproj -> C:\Users\The Hooder\Desktop\ProjectOldVillage-SFML-Horror-Game-\BetaSFMLTesting\AlphaV1\x64\Debug\AlphaV1.exe
+C:\Users\Hooder\Desktop\ProjectOldTown\ProjectOldVillage-SFML-Horror-Game-\BetaSFMLTesting\AlphaV1\AlphaV1.cpp(13,156): warning C4390: ';': empty controlled statement found; is this the intent?
+  AlphaV1.vcxproj -> C:\Users\Hooder\Desktop\ProjectOldTown\ProjectOldVillage-SFML-Horror-Game-\BetaSFMLTesting\AlphaV1\x64\Debug\AlphaV1.exe
