@@ -2,10 +2,24 @@
 #include "SFML/Graphics.hpp"
 #include "SFML/Window.hpp"
 
+class playerData 
+{
+public:
+    
+    void playerSprite() 
+    {
+        sf::Texture lightGlass;
+        if (!lightGlass.loadFromFile("C:\\Users\\The Hooder\\Desktop\\ProjectOldVillage-SFML-Horror-Game-\\Assets\\TEMP\\glass_light_blue.png")) 
+        {
+
+        }
+    }
+};
+
 
 int BaseWindow() // always best to use a function that can return a value!
 {
-    sf::RenderWindow window(sf::VideoMode(960, 540), "SFML window"); 
+    sf::RenderWindow window(sf::VideoMode(960, 540), "SFML window");
 
     // program will stay at 60 frames per second 
     window.setFramerateLimit(60);
@@ -13,36 +27,25 @@ int BaseWindow() // always best to use a function that can return a value!
     // change the title of the window (ignores last change in "Render Window" above)
     window.setTitle("Version: BETA");
 
-    // Creates a graphical font and text to display
-    sf::Font Arialfont;
-    if (!Arialfont.loadFromFile("C:\\Users\\Hooder\\Desktop\\ProjectOldTown\\ProjectOldVillage-SFML-Horror-Game-\\BetaSFMLTesting\\AlphaV1\\font\\ARIAL.ttf"))
-
-    sf::Text textToScreen;
-    textToScreen.setFont(Arialfont);
-    
-
-
     // run the program as long as the window is open
     while (window.isOpen()) 
     {
-        // check all the window's events that were triggered since the last iteration of the loop
+        // creates an Event called "eventTrigger" 
         sf::Event eventTrigger;
+
+        playerData myobj;
+        myobj.playerSprite();
 
         while (window.pollEvent(eventTrigger))
         {
-            // "close requested" eventTwigger: we close the window via user input
+            
             if (eventTrigger.type == sf::Event::Closed)
+
                 window.close();
         }
-
-        //draws title screen text!
-
-        //
-        
     }
-    
 
-
+    return 0;
 }
 
 
